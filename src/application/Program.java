@@ -19,7 +19,7 @@ public class Program {
 		int n = sc.nextInt();
 		
 		for (int i = 0; i < n; i++) {
-			System.out.printf("\nDigite os dados do %do contribuinte:", i + 1);
+			System.out.printf("\nDigite os dados do %do contribuinte:\n", i + 1);
 			
 			System.out.print("Renda anual com salário: ");
 			double salaryIncome = sc.nextDouble();
